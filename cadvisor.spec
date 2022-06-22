@@ -10,7 +10,7 @@
 
 Name:           %{repo}
 Version:        0.33.1
-Release:        1
+Release:        2
 Summary:        Analyzes resource usage and performance characteristics of running containers
 License:        ASL 2.0
 URL:            https://%{provider_prefix}
