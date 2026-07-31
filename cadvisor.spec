@@ -9,8 +9,8 @@
 %global shortcommit     %(c=%{commit}; echo ${c:0:7})
 
 Name:           %{repo}
-Version:        0.33.1
-Release:        3
+Version:        0.60.5
+Release:        1
 Summary:        Analyzes resource usage and performance characteristics of running containers
 License:        ASL 2.0
 URL:            https://%{provider_prefix}
@@ -39,7 +39,7 @@ so containers are inherently nested hierarchically.
 
 
 %prep
-%autosetup
+%autosetup -n cadvisor-546a3771589bdb356777c646c6eca24914fdd48b
 mkdir -p src/%{provider}.%{provider_tld}/%{project}
 ln -s ../../../ src/%{import_path}
 
